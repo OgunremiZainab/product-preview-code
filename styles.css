@@ -92,7 +92,6 @@ svg {
     }
 
     img {
-        width: 100%;
         max-width: 600px;
         border-top-right-radius: 0;
         object-fit: cover;
