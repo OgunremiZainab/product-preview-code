@@ -86,8 +86,15 @@ svg {
     }
 
     img {
-        width: 100%;
-        max-width: 1440px;
+        width: 50%;
+        max-width: 600px;
         border-top-right-radius: 0;
+        object-fit: cover;
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
     }
 }
