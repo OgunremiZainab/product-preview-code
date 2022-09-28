@@ -85,9 +85,9 @@ svg {
 @media (min-width: 750px) {
     .main {
         display: flex;
+        flex-direction: row;
         width: 100%;
-        max-width: 550px;
-        
+        max-width: 550px;    
     }
 
     img {
