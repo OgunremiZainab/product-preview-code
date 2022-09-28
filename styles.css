@@ -87,6 +87,7 @@ svg {
 
     img {
         width: 100%;
+        max-width: 1440px;
         border-top-right-radius: 0;
     }
 }
