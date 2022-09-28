@@ -76,6 +76,11 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: #19382b
+
+}
+
 svg {
     padding-right: 10px;
 }
@@ -83,7 +88,7 @@ svg {
 @media (min-width: 750px) {
     main {
         display: flex;
-        flex-direction: row;
+        
     }
 
     img {
@@ -91,12 +96,5 @@ svg {
         max-width: 600px;
         border-top-right-radius: 0;
         object-fit: cover;
-    }
-        
-        .container {
-            display: flex;
-            flex-direction: column;
-            width: 50%;
-        
     }
 }
